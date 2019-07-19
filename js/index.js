@@ -1,0 +1,10 @@
+{
+    window.onload=function(){
+        if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){//正则表达式
+            alert("为了更好的演示效果，请使用电脑浏览（1920x1080）");
+            window.location.href="https://www.baidu.com";//如果是手机端
+        }else{
+            alert("提示：点击作业图片底部的文本即可查看网页。（建议全屏）");
+        }
+    }
+}

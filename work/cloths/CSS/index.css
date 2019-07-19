@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-image: url(../image/head_bg.jpg);
+    background-repeat: repeat-x;
+    height: 128px;
+    width: 100%;
+}
+nav{
+    width: 980px;
+    margin: auto;
+}
+nav img,nav ul{
+    display: inline-block;
+    float: left;
+}
+nav ul li{
+    color: white;
+    font-size: 16px;
+    float: left;
+    width: 120px;
+    height: 92px;
+    line-height: 65px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background: url(../image/xuanfu.png);
+    background-size: 100% 100%;
+}
+article{
+    width: 980px;
+    background-color: #f3734e;
+    margin: auto;
+    height: 716px;
+}
+.fashion{
+    width: 900px;
+    margin: 5px auto auto auto;
+    height: 315px;
+    padding: 5px;
+    background-color: white;
+}
+h5{
+    color: white;
+    font-size: 16px;
+    float: right;
+    font-weight: initial;
+    margin-right: 30px;
+}
+.public-column{
+    float: left;
+    margin-right: 5px;
+}
+.public-div{
+    background-color: #242424;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+.public-div:hover,.special:hover{
+    background-color: #f3734e;
+}
+.column1{
+    width: 285px;
+}
+.fashion1{
+    height: 169px;
+    line-height: 169px;
+}
+.fashion2{
+    height: 137px;
+    line-height: 137px;
+}
+.fashion3{
+    height: 117px;
+    line-height: 117px;
+}
+.fashion4{
+    height: 188px;
+    line-height: 188px;
+}
+.special{
+    float: left;
+    width: 320px;
+    height: 314px;
+    line-height: 314px;
+    background-color: #242424;
+    transition: background-color 0.3s;
+}
+.current{
+    width: 980px;
+    margin: 50px auto;
+}
+.current p:first-child{
+    width: 230px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #f3734e;
+    line-height: 40px;
+    text-align: center;
+}
+.current-bg{
+    width: 980px;
+    background-color: white;
+    height: 327px;
+    border: 1px solid orange;
+}
+.current-li{
+    width: 229px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 10px;
+    border: 1px solid #f3734e;
+}
+.current-li p{
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+    border-top: 1px solid #f3734e;
+}
+.current-li div{
+    height: 38px;
+    margin: auto 10px 10px 10px;
+    background-color: #f3734e;
+    cursor: pointer;
+}
+.current-li div span{
+    color: white;
+    font-size: 16px;
+    line-height: 38px;
+    margin-right: 50px;
+    float:right;
+}
+footer{
+    background-color: #020202;
+    height: 100px;
+    padding-top: 20px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    line-height: 35px;
+}

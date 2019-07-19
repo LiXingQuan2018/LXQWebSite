@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LXQ website</title>
+    <link rel="stylesheet" href="css/lxq.css">
+    <script src="js/lxq.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="shade">
+    </div>
+
+    <audio id="audio_9420"
+    src="http://fs.open.kugou.com/d565e2e9cdd8330c6c6af00fe183b582/5d243517/G107/M02/1E/0B/qw0DAFvtgYyASyyYADI-hc1EB2s461.mp3" autoplay
+    controls></audio>
+
+    <img id="bg_img" src="image/lxq_bg.jpg" alt="">
+    <script>
+      let winHeight=window.innerHeight;
+      document.getElementById("shade").style.height=winHeight+"px";
+    </script>
+
+    <img src="image/lxq_head_img.jpg" id="head_img" alt="">
+
+    <div id="qqname_div">
+      <p id="QQname">Excellent<span><br><p id="saying">Where there is a will, there is a way.</p></span></p>
+    </div>
+
+    <div id="column_div" onmouseover="mouseOver()" onmouseout="mouseOut()">
+      <ul id="column_ul">
+        <li class="menu_li" onmouseover="changeContent('柳州')">柳州</li>
+        <li class="menu_li" onmouseover="changeContent('学校')">学校</li>
+        <li class="menu_li" onclick="changeContent('宿舍')">宿舍</li>
+        <li class="menu_li" onclick="changeContent('关于')">关于</li>
+      </ul>
+    </div>
+    <div id="div-content" onmouseover="mouseOver()" onmouseout="mouseOut()">
+      <img id="content_img" src=""/>
+      <h1 id="content_h1">学校简介</h1><br>
+      <p id="content_p">
+      </p>
+    </div>
+
+    <div id="time_div">
+      <ul id="time_ul">
+        <li id="year_li" class="time_li">2019</li>
+        <li>年</li>
+        <li id="mouth_li" class="time_li">7</li>
+        <li>月</li>
+        <li id="day_li" class="time_li">3</li>
+        <li>日</li>
+        <li id="hour_li" class="time_li">10</li>
+        <li>:</li>
+        <li id="minute_li" class="time_li">11</li>
+        <li>:</li>
+        <li id="seconds_li" class="time_li">34</li>
+      </ul>
+    </div>
+  </body>
+</html>

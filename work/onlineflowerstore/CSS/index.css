@@ -1,0 +1,85 @@
+*{
+    color: #a5a5a5;
+}
+.margin-center{
+    margin: auto auto;
+}
+body{
+    background-color: gainsboro;
+}
+#header{
+    width: 980px;
+    height: 86px;
+    font-family: 微软雅黑;
+    margin: auto auto;
+}
+#header h1{
+    text-align: center;
+    font-size: 30px;
+}
+#header h1 span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#header hr{
+    margin-top: 50px;
+}
+#flower-type{
+    margin: 7px auto;
+    width: 980px;
+}
+#flower-type p:first-child{
+    font-size: 14px;
+    line-height: 42px;
+}
+.banner-img{
+    display: block;
+    width: 100%;
+}
+#flower-type p:last-child{
+    font-family: 楷体;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+.hot img{
+    display: block;
+    margin: 10px auto;
+    width: 602px;
+}
+.hot p{
+    width: 602px;
+    line-height: 30px;
+    font-size: 16px;
+    text-indent: 2em;
+    margin: auto auto;
+    font-family: 楷体;
+}
+.hot p span{
+    text-decoration: underline;
+}
+.footer{
+    width: 602px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer p:first-child{
+    text-align: center;
+    margin: 10px auto 30px auto;
+}
+.boss-info{
+    height: 120px;
+    width: 602px;
+}
+.boss-info p{
+    margin-left: 120px;
+    line-height: 30px;
+    height:30px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+.boss-info p span{
+    font-size: 14px;
+    font-style: italic;
+}

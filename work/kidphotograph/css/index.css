@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+}
+.center{
+    margin: auto auto;
+}
+#bg-div{
+    background-image: url("../image/bg.jpg");
+    width: 980px;
+    height: 627px;
+}
+nav{
+    background-image: url("../image/nav.jpg");
+    width: 971px;
+    height: 86px;
+    padding: auto 100px;
+}
+.nav-text span{
+    font-size: 16px;
+    color: #4e555b;
+    line-height: 100px;
+    margin-right: 70px;
+}
+#left-nav{
+    float: left;
+    margin-left: 150px;
+}
+#right-nav{
+    float: right;
+    margin-right: 50px;
+}
+#update{
+    width: 980px;
+    height: 450px;
+}
+#update-img{
+    margin: 15px auto 15px 50px;
+}
+#update-ul{
+    list-style: none;
+    width: 980px;
+}
+#update-ul li{
+    width: 294px;
+    float: left;
+    margin:auto 16px;
+
+}
+#update-ul li h2{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#update-ul li p{
+    font-size: 14px;
+    height: 80px;
+    color: #bbb;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#sample{
+    background-image: url("../image/xinshang.jpg");
+    width: 980px;
+    background-repeat: no-repeat;
+    height: 442px;
+    padding-top: 170px;
+}
+#sample ul{
+    width: 824px;
+}
+#sample ul li{
+    float: left;
+    margin: auto 25px;
+    list-style: none;
+}
+footer{
+    background-repeat: repeat-x;
+    background-image: url("../image/footer_bg.jpg");
+    height: 80px;
+}
+footer p{
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+#position-img{
+    position: fixed;
+    right: 100px;
+    bottom: 60px;
+}
