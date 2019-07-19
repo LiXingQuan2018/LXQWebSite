@@ -3,8 +3,163 @@
   <head>
     <meta charset="utf-8">
     <title>LXQ website</title>
-    <link rel="stylesheet" type="text/css" href="css/lxq.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/lxq.css">-->
     <script src="js/lxq.js" charset="utf-8"></script>
+    <style>
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+      body{
+        overflow: hidden;
+      }
+      #shade{
+        background-color: white;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+        animation: shade 3s;
+        animation-fill-mode: forwards;
+      }
+      #bg_img{
+        width: 100%;
+        margin-top: -300px;
+      }
+      #head_img{
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        border-radius: 100%;
+        border: 3px solid white;
+        left: 50%;
+        top: 50px;
+        transform: translate(-50%, 0%);/*x,y*/
+      }
+      #qqname_div{
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%, 0%);/*x,y*/
+      }
+      #QQname{
+        font-family:华文琥珀;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+      }
+      #saying{
+        font-size: 25px;
+        color: white;
+        font-family: Bradley Hand ITC;
+      }
+      #audio_9420{
+        margin-left: 300px;
+        visibility: hidden;
+      }
+      #column_div{
+        position: absolute;
+        top: 350px;
+        z-index: 3;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        border-bottom: 1px solid white;
+      }
+      #column_ul{
+        width: 1000px;
+        list-style: none;
+      }
+      #column_ul li{
+        display: inline-block;
+        box-sizing: content-box;
+        float: left;
+        color: white;
+        padding: 10px;
+        width: 50px;
+        font-family: 幼圆;
+        text-align: center;
+        margin: auto 15px;
+        font-weight: bold;
+      }
+      #column_ul li:hover{
+        border-top: white 1px solid;
+        border-left: white 1px solid;
+        border-right: white 1px solid;
+        border-radius: 3px;
+        background-color: dodgerblue;
+      }
+      #div-content{
+        position: absolute;
+        z-index: 4;
+        overflow-x: auto;
+        width: 1000px;
+        height: 400px;
+        top: 400px;
+        border-radius: 7px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: white;
+        opacity: 0.5;
+      }
+      #content_img{
+        width: 30%;
+        float: left;
+        border-radius: 5px;
+        border: 2px solid white;
+      }
+      #content_h1{
+        text-indent: 50px;
+        margin-top: 10px;
+        font-family: 幼圆;
+        color: #1F9DF2;
+        padding-left: 50px;
+      }
+      #content_p{
+        padding: 5px;
+        text-indent: 35px;
+        font-family: 幼圆;
+        color: #68228B;
+        font-size: 18px;
+      }
+      #time_div ul{
+        list-style: none;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+      }
+      #time_div li{
+        color: white;
+        font-size: 50px;
+        float: left;
+      }
+      .time_li{
+        font-family: 幼圆;
+      }
+      #seconds_li{
+        animation: li_cover 1s infinite;
+        animation-fill-mode: backwards;
+      }
+      @keyframes shade {
+        0%{
+          opacity: 1;
+        }
+        100%{
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+      @keyframes li_cover {
+        0%{
+          transform: rotateX(0deg);
+        }
+        50%{
+          transform: rotateX(90deg);
+        }
+        100%{
+          transform: rotateX(0deg);
+        }
+      }
+
+    </style>
   </head>
   <body>
     <div id="shade">
